@@ -40,7 +40,7 @@ namespace WepAPIHomeWork.Controllers
         }
 
         [HttpDelete]
-        [Route("DeleteProuct/{id}")]
+        [Route("DeleteProduct/{id}")]
         public async Task<int> DeleteProduct(int id)
         {
             return await _repository.DeleteProductAsync(id);
